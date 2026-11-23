@@ -18,8 +18,6 @@ Start with the sales-to-target gap, then use the brand ranking and customer-by-b
 
 ### Sales Overview
 
-![Sales Overview dark theme with synthetic figures](../../images/sales-overview-dark.png)
-
 ![Sales Overview light theme with synthetic figures](../../images/sales-overview-light.png)
 
 ### Performance and Opportunities

@@ -40,8 +40,6 @@ Open any full-page preview to read the case study. The Sales Overview and ComEx 
 
 ### Sales Performance
 
-[![Sales Overview, dark theme](images/sales-overview-dark.png)](projects/sales/README.md)
-
 [![Performance and Opportunities](images/performance-opportunities.png)](projects/sales/README.md)
 
 ### Stock Coverage and Aging
