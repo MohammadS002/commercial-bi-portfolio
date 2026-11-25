@@ -33,35 +33,3 @@ See how the executive review moves from gross margin by product and customer to 
 | [Commercial Excellence](projects/comex/README.md) | Review product and customer profitability and prioritize actions on pricing, discounts, product mix, and costs. |
 | [Procurement Reporting](projects/procurement/README.md) | Track purchases and open orders in the pipeline against plan. |
 | [BI Operations](projects/bi-operations/README.md) | Monitor report adoption and support reliable scheduled refresh. |
-
-## Power BI report previews
-
-Open any full-page preview to read the case study. The Sales Overview and ComEx executive pages are featured above.
-
-### Sales Performance
-
-[![Performance and Opportunities](images/performance-opportunities.png)](projects/sales/README.md)
-
-### Stock Coverage and Aging
-
-[![Stock Coverage](images/stock-coverage.png)](projects/stock/README.md)
-
-[![Stock Overview](images/stock-overview.png)](projects/stock/README.md)
-
-### Retail Visibility
-
-[![Visibility Overview](images/visibility-overview.png)](projects/visibility/README.md)
-
-[![Visibility Details](images/visibility-details-full.png)](projects/visibility/README.md)
-
-### Marketing Budget
-
-[![Marketing Overview](images/marketing-overview.png)](projects/marketing/README.md)
-
-### Commercial Excellence
-
-[![Product and customer profitability](images/comex-product-customer.png)](projects/comex/README.md)
-
-### BI Operations
-
-[![BI Usage Overview](images/bi-usage-overview.png)](projects/bi-operations/README.md)
