@@ -45,4 +45,26 @@ I turned ComEx findings into recommended actions for the commercial review. Each
 | Customer B has shelf presence in 2 of 6 branches. | Validate demand and space at the remaining branches. | Trade Marketing |
 | Brand A is short of its sales target and has used 120% of its marketing budget. | Review campaign spend and sales response before committing additional budget. | Marketing and Sales |
 
+## Technical walkthrough
+
+This example uses synthetic sales data to illustrate how the profitability view can be built and checked.
+
+```mermaid
+flowchart LR
+    Product["Product dimension"] --> Sales["Sales fact"]
+    Customer["Customer dimension"] --> Sales
+    Date["Date dimension"] --> Sales
+    Sales --> KPI["Net sales, COGS, gross profit, and margin"]
+```
+
+With a sales fact at invoice-line grain, product, customer, and period selections filter both net sales and cost. Calculate margin as a ratio of totals so the result remains valid when rolling up across customers and products.
+
+```dax
+Gross Profit = [Net Sales] - [COGS]
+
+Gross Margin % = DIVIDE ( [Gross Profit], [Net Sales] )
+```
+
+**Validation example.** Suppose one product has $1,000 in net sales and $700 in cost, while another has $200 in sales and $180 in cost. The total gross profit is $320 and the total margin is 26.67% ($320 / $1,200). Averaging the individual margins of 30% and 10% would incorrectly return 20%. A zero-sales slice returns a blank margin.
+
 [Back to all projects](../../README.md)
